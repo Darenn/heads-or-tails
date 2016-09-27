@@ -33,6 +33,7 @@
       <script>scripts\playerLost.gml</script>
       <script>scripts\askPlayer.gml</script>
       <script>scripts\endOfGame.gml</script>
+      <script>scripts\TalkRandomly.gml</script>
     </scripts>
     <scripts name="Utils">
       <script>scripts\moveCoin.gml</script>

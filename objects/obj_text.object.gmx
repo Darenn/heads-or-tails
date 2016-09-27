@@ -28,7 +28,7 @@
             <string>self.alpha = 0;
 self.print = "";
 self.time = 0;
-alarm[11] = 30 * 5;
+alarm[11] = 30 * 7;
 </string>
           </argument>
         </arguments>
