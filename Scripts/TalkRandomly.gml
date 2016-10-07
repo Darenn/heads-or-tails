@@ -38,4 +38,4 @@ tab[14] = "The doctor to the patient: 'You are very sick'
 The patient to the doctor: 'Can I get a second opinion?'
 The doctor again: 'Yes, you are very ugly too...'
 I use this joke for retelling in reported speech. "
-drawMessageBox(tab[self.turn], 900, 100, 0.2);
+drawMessageBox(tab[self.turn % 15], 900, 100, 0.2);

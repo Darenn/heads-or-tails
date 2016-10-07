@@ -131,7 +131,8 @@ alarm[7] = 30 * 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>drawMessageBox("Let's play Heads or Tails!", 100, 100, 0.2);
+            <string>drawMessageBox("Let's play Heads or Tails! 
+(without randomness)", 100, 100, 0.2);
 alarm[0] = 30 * 4;
 </string>
           </argument>

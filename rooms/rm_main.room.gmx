@@ -8,9 +8,12 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>0</colour>
+  <colour>64</colour>
   <showcolour>-1</showcolour>
-  <code>global.FPS = 30;</code>
+  <code>global.FPS = 30;
+if (!audio_is_playing(pianoMusic)) {
+    audio_play_sound(pianoMusic, 10, true);
+}</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
